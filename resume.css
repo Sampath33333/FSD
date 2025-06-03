@@ -1,0 +1,40 @@
+
+body {
+    background-color: #f0f4f8;
+    color: #333333;
+    font-family: "Georgia", serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: 40px;
+}
+
+
+h1 {
+    color: #2a5298;
+    font-size: 36px;
+    border-bottom: 2px solid #2a5298;
+}
+
+h2 {
+    color: #1e3c72;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+li:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+
+.summary::first-letter {
+    font-size: 200%;
+    color: #ff4500;
+}
+
+
+
+p:hover {
+    background-color: #3c7179;
+    transition: background-color 0.3s;
+}
